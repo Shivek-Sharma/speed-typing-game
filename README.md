@@ -1,5 +1,7 @@
 # Speed Typing Game
-Game to beat the clock by typing random words
+Game to beat the clock by typing random words correctly and increase your score
+
+[Live Demo](https://fast-typing-tester.netlify.app/)
 
 # Project Specifications
 • Create game UI including a difficuly setting                                                           

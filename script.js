@@ -98,13 +98,13 @@ text.addEventListener('input', e => {
 
         //add time according to difficulty
         if (difficulty === 'easy') {
-            time += 4;
+            time += 5; //adds 4 sec to timer
         }
         else if (difficulty === 'medium') {
-            time += 3;
+            time += 4; //adds 3 sec
         }
         else {
-            time += 2;
+            time += 3; //adds 2 sec
         }
 
         updateTime();

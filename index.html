@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Speed Typing Game</title>
+    <title>Fast Typing Game</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
         integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
@@ -32,7 +35,15 @@
     <div class="container">
         <div class="start-game-container" id="start-game-container">
             <h1><i class="fa-solid fa-keyboard"></i> Speed Typer <i class="fa-solid fa-keyboard"></i></h1>
-            <br><br>
+            <div class="rules">
+                <p><b>Game Rules</b></p>
+                <ul>
+                    <li>Timer starts with 10 sec</li>
+                    <li>Easy: Adds 4 sec to timer if you type the correct word</li>
+                    <li>Medium: Adds 3 sec to timer if you type the correct word</li>
+                    <li>Hard: Adds 2 sec to timer if you type the correct word</li>
+                </ul>
+            </div>
             <button id="start-game">Start Game</button>
         </div>
 
